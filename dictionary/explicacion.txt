@@ -1,0 +1,21 @@
+Diccionarios
+#Los diccionarios son mutables
+#No se rigen por la reglas de los indices
+#Se Rigen por las llaves y las llaves necesitan tener un valor
+#Una llave puede ser cualquier valor
+
+Definir un diccionario
+diccionario = {}
+diccionario = dict()
+
+# { llave: el valor el cual queremos asociar. }
+diccionario = { "total": 55 }
+
+diccionario = { "total": 55, "descuento": True, "subtotal": 15}
+
+diccionario = { "total": 55, 10: "Curso de Python", (1,2,3): True }
+
+#llaves
+# Un string ("total")
+# Un numero entero (10)
+# Una tupla que almacena numeros entero (1,2,3)
